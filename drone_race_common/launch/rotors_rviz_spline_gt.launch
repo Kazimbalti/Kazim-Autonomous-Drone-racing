@@ -1,1 +1,8 @@
+<launch>
 
+    <!-- Launch Firefly with vi camera and MSF-->
+    <include file="$(find gazebo_assets_drone_race)/launch/test_rotors_msf_camera.launch"/>
+
+    <include file="$(find drone_race_common)/launch/spline_rviz_gt.launch"/>
+
+</launch>
