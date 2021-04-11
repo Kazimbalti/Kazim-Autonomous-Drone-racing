@@ -1,4 +1,4 @@
-# Kazim-Autonomous-Drone-racing
+
 # Installation instructions
 
 Detailed instructions to setup a development environment for the Drone Race project
