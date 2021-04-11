@@ -1,7 +1,7 @@
 
 # Installation instructions
 
-Detailed instructions to setup a development environment for the Drone Race project
+Detailed instructions to setup a development environment for the Autonomous Drone Race project
 
 ---
 
@@ -17,7 +17,7 @@ Detailed instructions to setup a development environment for the Drone Race proj
 
 #### ROS and Catkin workspace
 
-These instructions assume Ubuntu 16.04 and install ROS Kinetic.
+These instructions assume Ubuntu 18.04 and install ROS Melodic.
 
 ```sh
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu `lsb_release -sc` main" > /etc/apt/sources.list.d/ros-latest.list'
@@ -79,7 +79,7 @@ git clone git@github.com:ethz-asl/gflags_catkin.git
 wstool merge https://raw.githubusercontent.com/mit-fast/FlightGoggles/master/flightgoggles.rosinstall
 wstool update
 cd ~/catkin_ws
-rosdep install --from-paths src --ignore-src --rosdistro kinetic --skip-keys="rotors_hil_interface asctec_hl_interface asctec_hl_firmware" -y
+rosdep install --from-paths src --ignore-src --rosdistro melodic --skip-keys="rotors_hil_interface asctec_hl_interface asctec_hl_firmware" -y
 sudo apt install -y libzmqpp-dev libeigen3-dev
 sudo apt install -y libvulkan1 mesa-vulkan-drivers vulkan-utils
 catkin build
