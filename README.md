@@ -7,7 +7,7 @@
 - rotors_simulator_demos
 
 See more detailed installation instructions in
-[install.md](https://github.com/Veilkrand/drone_race/blob/master/install.md).
+[install.md](https://github.com/Kazimbalti/Kazim-Autonomous-Drone-racing/blob/main/install.md).
 
 ## Test Launch Files:
 
