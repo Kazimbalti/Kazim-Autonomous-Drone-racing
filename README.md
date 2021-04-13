@@ -1,7 +1,7 @@
 # Drone Race project
 
 ## Prerequisites
-- ROS Kinetic
+- ROS Melodic
 - ETH RotorS
 - ethzasl_msf
 - rotors_simulator_demos
