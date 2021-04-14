@@ -100,7 +100,7 @@ rate, JKLI for roll and pitch rate.
 
 ```sh
 cd ~/catkin_ws/src
-git clone https://github.com/Kazimbalti/Kazim-Autonomous-Drone-racing.git
+git clone https://github.com/Kazimbalti/PSU_drone_race_.git
 ```
 
 #### Usage
